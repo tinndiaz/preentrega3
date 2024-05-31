@@ -1,0 +1,42 @@
+.centro{
+    background-image: url(../images/imagen1.png);
+    width: 1900px;
+    height: 700px;
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin:0 auto;
+    .texto{
+        width: 20%;
+        height: 60vh;
+        margin: 2rem;
+        margin-left: 450px;
+    }
+    .primero{
+        background-color: rgba(0, 0, 0, 0.705);
+    }
+    .tituloPrimero{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0.5rem;
+    }
+    .interiorPrimero{
+        color: white;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0.8rem;
+    }
+    .logofondo img{
+        padding-left: 22%;
+        padding-bottom: 10%;
+        width: 80%;
+    }
+}
